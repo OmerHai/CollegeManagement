@@ -1,0 +1,45 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.vscode
+*.vs
+
+# Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# Node.js / NPM
+node_modules/
+
+# Angular specific files
+dist/
+npm-debug.log
+yarn-error.log
+e2e/*.js
+e2e/*.js.map
+
+# Angular generated files
+*.js
+*.js.map
+*.css
+*.css.map
+*.metadata.json
+*.ngfactory.ts
+*.ngstyle.ts
+
+# Entity Framework Core migrations
+**/Migrations/*.cs
+**/Migrations/*.Designer.cs
+**/Migrations/*.resx
+
+# Database file (if used locally)
+*.db
+
+# Environment variables
+.env
+
+# Other project-specific files
+*.log
+*.json
+*.sqlite
